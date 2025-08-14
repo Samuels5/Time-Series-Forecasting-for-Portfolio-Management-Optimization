@@ -1,0 +1,135 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Data files (protect sensitive data)
+*.csv
+*.xls
+*.xlsx
+*.db
+*.sqlite
+*.sqlite3
+data/
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# TensorFlow/Keras specific
+*.h5
+*.hdf5
+*.pb
+*.model
+*.ckpt
+*.tfrecord
+model_data/
+logs/
+saved_models/
+
+# Matplotlib
+.matplotlib/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.eps
+
+# Model parameters
+*.pkl
+*.joblib
+*.pickle
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Credentials (especially for YFinance API keys if applicable)
+credentials.json
+auth.json
+api_keys.txt
+config.ini
+
+# Results that are too large or change frequently
+results/
+outputs/
+figures/
+
+# R specific (in case R is used alongside Python)
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
